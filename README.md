@@ -37,5 +37,5 @@ Pijijijijijijijijajajajajajajajajajajajajajajajajajajajajajajajajajajajajajamaja
 Pijamalı hasta yağız şoföre çabucak güvendi.
 ```
 ## Known Issues
-* Piping output does not work at the moment.
+* Piping output does not work correctly at the moment (at least in Windows). Pipe and redirection characters cause a glitch in Python's Unicode mapping mechanism. Will need to do more research to implement a workaround.
 * With consonant randomization level 2 and randomized syllable repetition deobfuscation might guess a single or few syllables wrong. Will try to replace current regex pattern with a less error-prone one.
